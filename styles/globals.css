@@ -1,0 +1,135 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: #0c4b5e;
+    text-decoration: underline;
+}
+
+h4 {
+    margin: 18px 0 6px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ol, ul {
+    padding-left: 16px;
+}
+
+table.tableView tr th {
+    padding-bottom: 4px;
+    padding-left: 0;
+    text-align: center;
+    border-right: 2px #444 solid;
+}
+
+table.tableView tr td {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 8px;
+    border: 1px #888 solid;
+}
+
+table.tableView tr td:nth-child(2n + 1) {
+    border-right: 3px #111 solid;
+}
+
+table.tableView tr td.dateCell {
+    border: none;
+    padding-right: 15px;
+}
+
+table.tableView tr td.free {
+    background-color: #176910;
+    cursor: pointer;
+}
+
+table.tableView tr td.taken {
+    background-color: #751222;
+    cursor: not-allowed;
+}
+
+table.tableView tr td.public {
+    background-color: #bf8c00;
+    cursor: not-allowed;
+}
+
+table.tableView tr td.history, table.tableView tr td.maintenance {
+    background-color: #555;
+    cursor: not-allowed;
+}
+
+table.tableView tr td.free:hover {
+    background-color: #0c4b5e;
+}
+
+table.accordionView tr td {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 12px 8px;
+    border: 2px #222 solid;
+    color: #FFF;
+    text-align: center;
+}
+
+table.accordionView tr td.free:active {
+    background-color: #0c4b5e;
+}
+
+table.accordionView tr td.free {
+    background-color: #176910;
+    cursor: pointer;
+}
+
+table.accordionView tr td.taken {
+    background-color: #751222;
+    cursor: not-allowed;
+}
+
+table.accordionView tr td.public {
+    background-color: #bf8c00;
+    cursor: not-allowed;
+}
+
+table.accordionView tr td.maintenance {
+    background-color: #555;
+    cursor: not-allowed;
+}
+
+table.accordionView tr td.history {
+    display: none;
+}
+
+table.results tr th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+table.results tr td {
+    text-align: center;
+}
+
+table.results tr td.void {
+    background-color: #AAA;
+}
+
+table.results tr td.win {
+    background-color: #b1edb4;
+}
+
+span.strike {
+    text-decoration: line-through;
+}
