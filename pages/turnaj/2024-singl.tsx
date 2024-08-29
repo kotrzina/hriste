@@ -178,7 +178,7 @@ const Singl2024: NextPage = () => {
             </Col>
 
             <Col md={6}>
-                <h3>Vítězové</h3>
+                <h3>Výsledky</h3>
                 <ol>
                     <li><Medal type={"gold"}/> <strong>Tomáš Kozák</strong></li>
                     <li><Medal type={"silver"}/> <strong>Daniel Orálek</strong></li>
