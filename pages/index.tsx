@@ -44,10 +44,8 @@ const Home: NextPage = () => {
                         <Card.Body>
                             <Card.Title>Tenis SINGL 2024</Card.Title>
                             <Card.Text>
-                                <ul>
-                                    <li><strong>24. - 25. 8. 2024</strong></li>
-                                    <li>7 hračů</li>
-                                </ul>
+                                - <strong>24. - 25. 8. 2024</strong><br/>
+                                - 7 hračů
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
@@ -64,10 +62,8 @@ const Home: NextPage = () => {
                         <Card.Body>
                             <Card.Title>Tenis DEBL 2023</Card.Title>
                             <Card.Text>
-                                <ul>
-                                    <li><strong>12. 8. 2023</strong></li>
-                                    <li>6 týmů</li>
-                                </ul>
+                                - <strong>12. 8. 2023</strong><br/>
+                                - 6 týmů
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
