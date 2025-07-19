@@ -36,7 +36,26 @@ const Home: NextPage = () => {
             <Row>
 
                 <Col md={12}>
-                    <h2>Turnaje:</h2>
+                    <h2>VESELICE OPEN</h2>
+                </Col>
+
+                <Col md={3}>
+                    <Card className={"mb-3"}>
+                        <Card.Body>
+                            <Card.Title>Tenis DEBL MIX 2025</Card.Title>
+                            <Card.Text>
+                                - <strong>16. 8. 2025</strong><br/>
+                                - Registrace do 15. 8. 2025
+                            </Card.Text>
+                        </Card.Body>
+                        <Card.Footer>
+                            <Button variant={"success"} onClick={() => {
+                                router.push("/turnaj/2025-debl-mix")
+                            }}>
+                                Detail
+                            </Button>
+                        </Card.Footer>
+                    </Card>
                 </Col>
 
                 <Col md={3}>
