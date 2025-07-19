@@ -7,6 +7,8 @@ const Debl2025: NextPage = () => {
 
     const router = useRouter()
 
+    const googleSheetURL = "https://docs.google.com/spreadsheets/d/15I_DpUNiBSf_b6LISI3zzOALb93FNVoS_EyTv8I5Fik/edit?usp=sharing"
+
     return (
         <Row>
             <Head>
@@ -54,7 +56,7 @@ const Debl2025: NextPage = () => {
                 <Button
                     variant={"success"}
                     size={"sm"}
-                    href={"https://docs.google.com/spreadsheets/d/15I_DpUNiBSf_b6LISI3zzOALb93FNVoS_EyTv8I5Fik/edit?usp=sharing"}
+                    href={googleSheetURL}
                     target={"_blank"}>
                     Google Sheet
                 </Button>
